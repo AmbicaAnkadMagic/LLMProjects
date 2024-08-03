@@ -1,0 +1,6 @@
+1. create AWS lambda function 
+2. add layer to install latest version of boto3 in zip having pythpon folder. i.e.
+   >> we need to install boto3 in python folder and zip it and then upload in labda function as layer
+3. Create API Gateway ...link lambda function to this gateway. also create a stage to this.
+4. Give admin access to the lambda functon from permissions in lambda function
+5. Create the s3 bucket
