@@ -1,0 +1,13 @@
+1.create user from IAM
+2. assign the permissions (AdminAccess e.g.) 
+3. create access key for that user
+4. download access key and secret key
+
+we have already installed awscli package in python env..
+Now configure it from command line :
+command : aws configure
+specify >>
+AWS Access Key ID 
+AWS Secret Access Key 
+Default region name : us-east-1
+Default output format : json
